@@ -561,3 +561,40 @@ h3 { line-height: 1.5; }
   *,*::before,*::after { animation: none !important; transition: none !important; }
   .illustration.is-zoom-pending { transform: none; }
 }
+
+/* ===== v5.1（10/9 画面書き込み） ===== */
+/* お悩み：日本語を大きく、英字は小さな添え字に */
+.sec-title--swap .sec-en-small { margin: 0 0 12px; font-family: "Inter", sans-serif; font-size: 13.5px; font-weight: 500; letter-spacing: .08em; color: var(--blue); }
+.sec-title--swap .sec-h { margin-top: 0; font-size: clamp(30px, 3.4vw, 48px); }
+/* 流れ図：文字は青、丸は白抜きで統一 */
+.flow-chart li { color: var(--blue); }
+.flow-chart .is-goal .flow-no { background: var(--white); color: var(--blue); }
+/* 期間と内容 */
+.period-plans { display: grid; gap: 8px; padding: 0; margin: 0; list-style: none; width: 100%; }
+.period-plans li { display: grid; grid-template-columns: 64px minmax(0,1fr); gap: 16px; align-items: start; margin: 0; padding: 12px 16px; border-radius: 4px; background: var(--surface); font-size: 14px; line-height: 1.7; }
+.period-plans b { font-weight: 700; color: var(--blue); }
+/* サービス：ボタンを文章の幅の中央に */
+.service-copy .btn { align-self: center; }
+/* 段階（5つ） */
+.phase-head { margin: 80px 0 32px; }
+.phase-head .sec-ja { margin-bottom: 12px; }
+.phase-lead { max-width: 38em; }
+.training-path--5 { grid-template-columns: repeat(5, minmax(0,1fr)); margin: 0 0 48px; }
+.training-path--5 li > div { display: grid; gap: 6px; }
+.training-path--5 b { font-size: 15px; font-weight: 700; line-height: 1.5; }
+.training-path--5 span:not(.step-number) { font-size: 13px; line-height: 1.7; color: var(--muted); }
+.training-path--5 li.is-here .step-number { background: var(--blue); color: var(--white); }
+.training-path--5 li.is-here b { color: var(--blue); }
+@media (max-width: 1199px) { .training-path--5 { grid-template-columns: repeat(2, minmax(0,1fr)); } .training-path--5 li:not(:last-child)::before, .training-path--5 li:not(:last-child)::after { display: none; } }
+@media (max-width: 767px) { .training-path--5 { grid-template-columns: minmax(0,1fr); } }
+/* 選び方：幅を詰め、文字を少し小さく */
+.service-guide { max-width: 880px; }
+.guide-heading, .guide-row { grid-template-columns: minmax(0,1.2fr) 24px minmax(0,1fr); padding: 20px 24px; }
+.guide-row p { font-size: 15px; }
+#choose .note, #choose .actions { max-width: 880px; }
+#choose .actions { justify-content: center; }
+/* そのほか：下の注記に余白 */
+#others .notes { margin-top: 48px; display: grid; gap: 24px; max-width: 38em; }
+#others .notes p { margin: 0; }
+#others .panel { margin-top: 64px; }
+#others .panel .slide__lead { max-width: 38em; }
