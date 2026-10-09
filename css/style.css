@@ -598,3 +598,24 @@ h3 { line-height: 1.5; }
 #others .notes p { margin: 0; }
 #others .panel { margin-top: 64px; }
 #others .panel .slide__lead { max-width: 38em; }
+
+/* ===== v5.2：段階図をシンプルに、配置の統一 ===== */
+/* 段階図（5つ）：矢印をやめ、丸の中心を通る1本の線に。文字色は本文色で統一 */
+.training-path--5 { position: relative; gap: 32px; }
+.training-path--5::before { content: ""; position: absolute; left: 24px; right: 24px; top: 24px; border-top: 1px solid var(--blue); }
+.training-path--5 li::before, .training-path--5 li::after { display: none !important; content: none !important; }
+.training-path--5 .step-number { background: var(--white); }
+.training-path--5 b, .training-path--5 li.is-here b { color: var(--ink); }
+.training-path--5 li.is-here .step-number { background: var(--blue); color: var(--white); }
+@media (max-width: 1199px) { .training-path--5::before { display: none; } }
+/* 配置の統一：見出し・本文・ボタンはすべて左寄せ。中央寄せの枠を解除 */
+.cta-panel { text-align: left; }
+.cta-panel p { margin-inline: 0; max-width: 38em; }
+.cta-panel .slide__actions { justify-content: flex-start; }
+.message-block, .prose, .privacy-prose, .detail-content, #why-us, #company-info, #stance { margin-inline: 0; }
+#company-info, #stance { max-width: 880px; }
+.line-card { text-align: left; margin: 0; }
+.line-card__qr img { margin: 0 0 32px; }
+.line-action { justify-content: flex-start; }
+.actions, .timing-copy .actions, #choose .actions { justify-content: flex-start; }
+.service-copy .btn { align-self: flex-start; }
