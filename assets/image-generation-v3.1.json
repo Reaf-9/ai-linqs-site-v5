@@ -1,0 +1,58 @@
+[
+  {
+    "name": "issue-01",
+    "prompt": "Flat editorial illustration, landscape 3:2. White background, only #327AFA, #EDF1F9 and #0F0F11. Fine lines, minimal facial features. A company president seated at a desk with several employees holding papers queueing for approval. No text, numbers, signage, company names, logos or watermark.",
+    "path": "/Users/yamamotomasahiro/.codex/generated_images/01a0e222-8218-7663-9e95-ecc4b71fbc10/exec-b4b0e2ee-4ed6-44d5-8a94-2acf21835b38.png",
+    "tool": "built-in imagegen",
+    "destination": "assets/issue-01.jpg"
+  },
+  {
+    "name": "issue-02",
+    "prompt": "Flat editorial illustration, landscape 3:2. White background, use only blue #327AFA, pale blue gray #EDF1F9 and dark gray #0F0F11. Fine lines, minimal facial detail, calm elegant composition matching corporate illustrations. A Japanese small business has added new staff, but the trainer and manager at the center are overwhelmed by piles of papers while new employees wait for guidance. No text, letters, numbers, logos, signage or watermark.",
+    "path": "/Users/yamamotomasahiro/.codex/generated_images/01a0e222-8218-7663-9e95-ecc4b71fbc10/exec-be783fbf-8bd2-48f3-95ec-bca0ca0bffbd.png",
+    "tool": "built-in imagegen",
+    "destination": "assets/issue-02.jpg"
+  },
+  {
+    "name": "issue-03",
+    "prompt": "Flat editorial illustration, landscape 3:2. White background, use only blue #327AFA, pale blue gray #EDF1F9 and dark gray #0F0F11. Fine lines, minimal facial detail, calm elegant composition. Three disconnected islands of information in one office: piles of paper, a computer showing blank spreadsheet cells without text, two employees talking. No connecting arrows. No readable text, letters, numbers, logos, signage or watermark.",
+    "path": "/Users/yamamotomasahiro/.codex/generated_images/01a0e222-8218-7663-9e95-ecc4b71fbc10/exec-cb679023-ad7a-45fd-aa80-59276bf0fb05.png",
+    "tool": "built-in imagegen",
+    "destination": "assets/issue-03.jpg"
+  },
+  {
+    "name": "philosophy",
+    "prompt": "Photorealistic natural editorial photograph, landscape 3:2, Japanese small business workplace, bright natural daylight, calm white and blue palette. Four Japanese colleagues aged 30 to 50 smiling and talking together with warm relaxed expressions, candid human interaction is the main subject. A laptop is a subtle secondary prop. No robots, no real company names, no logos, no readable text or signage, no watermark.",
+    "path": "/Users/yamamotomasahiro/.codex/generated_images/01a0e222-8218-7663-9e95-ecc4b71fbc10/exec-ec6c97f8-9c50-4d50-af7c-553d26c82b59.png",
+    "tool": "built-in imagegen",
+    "destination": "assets/philosophy.jpg"
+  },
+  {
+    "name": "case-01",
+    "prompt": "Photorealistic commemorative group photograph, landscape 3:2. Four Japanese transport company employees aged 30 to 50 standing smiling together in front of their company building, wearing understated blue work uniforms, a delivery truck behind them. Natural daylight, approachable authentic small business atmosphere. Completely blank building facade and blank truck, NO real company names, NO logos, NO readable signage, NO letters or text, no watermark. Fictional people and business.",
+    "path": "/Users/yamamotomasahiro/.codex/generated_images/01a0e222-8218-7663-9e95-ecc4b71fbc10/exec-370a992d-b6ab-4cf8-8970-67cf4a2473e5.png",
+    "tool": "built-in imagegen",
+    "destination": "assets/case-01.jpg"
+  },
+  {
+    "name": "case-02",
+    "prompt": "Photorealistic commemorative group photograph, landscape 3:2. Four Japanese automotive company employees aged 30 to 50 standing smiling together in front of their workshop building, wearing mechanics work uniforms, cars behind them. Natural daylight, approachable authentic small business atmosphere. Completely blank facade, unbranded cars without visible emblems or readable license plates. NO real company names, NO logos, NO readable signage, NO letters or text, no watermark. Fictional people and business.",
+    "path": "/Users/yamamotomasahiro/.codex/generated_images/01a0e222-8218-7663-9e95-ecc4b71fbc10/exec-df8ec4df-db34-4b27-8aa0-ec592abe3915.png",
+    "tool": "built-in imagegen",
+    "destination": "assets/case-02.jpg"
+  },
+  {
+    "name": "case-03",
+    "prompt": "Photorealistic commemorative group photograph, landscape 3:2. Four Japanese office colleagues aged 30 to 50, men and women wearing business suits, standing smiling together outside the entrance of their office building. Bright natural daylight, approachable authentic small business atmosphere, white and subtle blue colors. Completely blank entrance walls, NO real company names, NO logos, NO readable signage, NO letters or text, no watermark. Fictional people and business.",
+    "path": "/Users/yamamotomasahiro/.codex/generated_images/01a0e222-8218-7663-9e95-ecc4b71fbc10/exec-ad88992b-8222-46fb-b7ed-f31500e56c62.png",
+    "tool": "built-in imagegen",
+    "destination": "assets/case-03.jpg"
+  },
+  {
+    "name": "service-aistaff",
+    "prompt": "Photorealistic editorial photo landscape 3:2. Japanese office worker aged 40 calmly reviewing a report at a desk in a bright natural-light white office. Show the worker in three-quarter front view and the BACK of their desktop monitor facing the camera, so absolutely no display is visible. A colleague working softly out of focus in background. Human interaction with an ordinary computer, blue and white restrained corporate palette, authentic skin texture and natural materials. No readable text, signage, letters, numbers, logos, real company names or watermark. No glowing effects or robots.",
+    "path": "/Users/yamamotomasahiro/.codex/generated_images/01a0e222-8218-7663-9e95-ecc4b71fbc10/exec-e883de2f-6699-408c-841a-f6a74070694a.png",
+    "tool": "built-in imagegen",
+    "destination": "assets/service-aistaff.jpg"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "file": "assets/timing.jpg",
+    "tool": "image_gen",
+    "prompt": "Create one landscape 3:2 flat editorial illustration for a Japanese business website, white background, thin dark gray outlines, simple friendly faces, flat fills ONLY blue #327AFA pale blue gray #EDF1F9 and dark gray #0F0F11 with white. A Japanese business owner seated at a desk, raising his face with a newly inspired expression; two employees beside him. Owner's head centered around 60% horizontal and 42% vertical, leave blank white space above head for an HTML badge added later. Match clean minimal Japanese corporate issue illustrations. NO exclamation marks, NO lightbulbs, NO symbols above heads, NO text, letters, logo, watermark. No gradients or shadows.",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/step-01.jpg",
+    "tool": "image_gen",
+    "prompt": "A realistic editorial photograph for a Japanese SME consulting website, landscape 3:2. In a comfortable office reception area a Japanese consultant attentively listens to a Japanese business owner explaining concerns, relaxed seated conversation, people aged 30-50, bright natural window light, understated white and blue palette, candid professional photography, natural anatomy. No text, logos, watermarks, company names or signs.",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/step-02.jpg",
+    "tool": "image_gen",
+    "prompt": "A realistic editorial photograph for a Japanese SME consulting website, landscape 3:2. Three Japanese professionals aged 30-50 collaboratively organizing business processes on blank paper and a whiteboard using simple abstract lines and boxes only, natural engaged expressions, bright natural daylight, understated white and blue office, candid photography, natural anatomy. No readable writing, letters, numbers, logos, company names or watermarks.",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/step-03.jpg",
+    "tool": "image_gen",
+    "prompt": "A realistic editorial photograph for a Japanese SME consulting website, landscape 3:2. Japanese consultant aged 30-50 explaining project schedule and estimate documents spread on desk to Japanese business owner, camera over shoulder showing faces and documents, subtle abstract schedule bars on papers with all writing illegible, bright natural light, calm white and blue palette, believable office and natural anatomy. No readable text, logos, watermarks or real company names.",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/step-04.jpg",
+    "tool": "image_gen",
+    "prompt": "A realistic editorial photograph for a Japanese SME consulting website, landscape 3:2. Japanese business owner and consultant aged 30-50 smiling warmly while exchanging a plain contract document across an office meeting table after reaching agreement, colleague nearby, natural professional interaction, bright natural daylight, calm white and blue palette, candid photo with natural anatomy. No readable text, logos, company names or watermarks.",
+    "format": "JPEG",
+    "width": 1200,
+    "height": 800
+  }
+]
