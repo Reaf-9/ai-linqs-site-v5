@@ -619,3 +619,28 @@ h3 { line-height: 1.5; }
 .line-action { justify-content: flex-start; }
 .actions, .timing-copy .actions, #choose .actions { justify-content: flex-start; }
 .service-copy .btn { align-self: flex-start; }
+
+/* ===== v5.3：導入事例に会社ごとの枠（社長の指摘「メリハリがない」） ===== */
+/* 実績ページ：会社ごとに淡い青灰の枠。社名を上に大きく、課題・成果は白い面に */
+.case-list { gap: 40px; }
+.case-detail { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding: 40px; border-radius: 12px; background: var(--surface); }
+.case-detail .photo { background: var(--white); }
+.case-detail .card-body { gap: 20px; }
+.case-detail h3 { padding-bottom: 16px; border-bottom: 1px solid var(--blue); }
+.case-detail .case { display: grid; gap: 12px; margin: 0; }
+.case-detail .case > div { margin: 0; padding: 20px 24px; border-radius: 12px; background: var(--white); }
+.case-detail .case dt { font-size: 13px; letter-spacing: .08em; }
+.case-detail .voice { background: var(--white); border: 1px solid var(--blue); }
+/* 挿絵の無い間は 1 列にして枠を詰める */
+.case-detail:not(:has(img.photo)) { grid-template-columns: 1fr; max-width: 880px; }
+/* トップの 3 枚も同じ枠に */
+.case-cards .card { padding: 32px 28px; border-radius: 12px; background: var(--surface); }
+.case-cards .card h3 { padding-bottom: 12px; border-bottom: 1px solid var(--blue); }
+.case-cards .case > div { padding: 16px 20px; border-radius: 12px; background: var(--white); }
+.case-cards .case > div + div { margin-top: 12px; }
+@media (max-width: 767px) {
+  .case-list { gap: 24px; }
+  .case-detail { padding: 24px 16px; gap: 24px; }
+  .case-detail .case > div { padding: 16px; }
+  .case-cards .card { padding: 24px 16px; }
+}
