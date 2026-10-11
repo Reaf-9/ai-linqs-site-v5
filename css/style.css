@@ -644,3 +644,6 @@ h3 { line-height: 1.5; }
   .case-detail .case > div { padding: 16px; }
   .case-cards .card { padding: 24px 16px; }
 }
+/* v5.4：出典の添え書き／LINE登録の2枚組 */
+.src { display: block; margin-top: 4px; font-size: 12px; color: var(--muted); }
+.benefits { grid-template-columns: repeat(2, minmax(0,1fr)); max-width: 800px; }
