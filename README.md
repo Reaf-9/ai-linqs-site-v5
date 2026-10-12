@@ -124,3 +124,7 @@ git操作・ファイル削除・このフォルダ外への書き込みは行�
 2. テスト版バッジは github.io とローカルでしか出ないので触らなくてよい
 3. 未使用の画像（`_old-*`、`future-*`、`timing.jpg`、`key-visual.jpg`、`signature.png`、`image-generation-*.json`）は上げなくてよい
 4. FileZilla で `public_html/ai-linqs.com/` に、HTML 8 つ（index/about/service/works/contact/privacy/cases/services）と `css` `js` `assets` を上書き
+
+## v5.5（2026-10-12 最終確認）
+- トップのサービス下の一覧から「社内アプリ・業務システム制作」「AI顧問」を削除（AI社員・AI部署長構築のみ残す）
+- 実績ページの「ご担当者様の声」の枠を3社とも削除（コメントが集まったら戻す）
